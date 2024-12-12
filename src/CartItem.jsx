@@ -15,6 +15,10 @@ const CartItem = ({ onContinueShopping, handleDelete }) => {
     onContinueShopping();
   };
 
+  const handleCheckOut = () =>  {
+    alert('Coming Soon!');
+  };
+
 
   const handleIncrement = (item) => {
     dispatch(updateQuantity({name: item.name, quantity: item.quantity + 1}));
