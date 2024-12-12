@@ -223,6 +223,7 @@ body {
   
   .product-button.added-to-cart {
     background-color: grey; /* Grey when product is added */
+    cursor: not-allowed; /* Indicate button is disabled */
   }
   @media (max-width: 1200px) {
     .product-card {
